@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand",sans-serif;
+}
+
+#head{
+    width: 100vw;
+    height: 50px;
+    background-color: #5bead1;
+    display: flex;
+    justify-content: space-between;
+}
+#head1{
+    display: flex;
+}
+#head1 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 25px;
+}
+#head1 ul li{
+    margin: 15px;
+    /* margin-left: 50px; */
+}
+
+#head2 p{
+    margin: 15px;
+}
+.a{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px ;
+
+}
+#menu-btn{
+    margin-left: 25px;
+    margin-top: 6px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#menu-btn span{
+    
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+}
+.showmenu{
+     display: block;
+     
+}
+nav{
+    display: none;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-in;
+}
+nav div{
+    display: flex;
+    width: 250px;
+    height: 100vh;
+    border: 1px solid gray;
+    
+}
+nav div ul{
+    margin: 25px auto auto 30px;
+    padding: auto 5px auto 5px;
+}
+nav div ul li{
+    list-style: none;
+    line-height: 50px;
+}
+
+#icon{
+    margin: 5px auto auto 40px;
+    
+}
+.sub1 ul{
+    margin: -10px 0 0 35px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in;
+}
+.sub ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.sub p{
+    cursor: pointer;
+}
+
+.sub ul{
+    display: none;
+}
+.sub2{
+    padding:0px 5px 5px 5px ;
+    height: 50px;
+}
+
+.sub3{
+    margin-bottom: 0px;
+}
+
+#sample{
+    margin-top: 15px;
+}
+/* #sample1{
+    margin-top: -10px;
+} */
+p:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    height: 50px;
+}
+
